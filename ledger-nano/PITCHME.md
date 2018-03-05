@@ -14,7 +14,7 @@ Wolfgang Welz
 * Confirm transactions on the device
 * Pin code for physical security
 
-----
++++
 
 ### Generate Address/Key
 
@@ -27,7 +27,7 @@ What if I Lose My Hardware Wallet?
 
 ![](https://i.imgur.com/kJ0Eb3M.png)
 
-----
++++
 
 ### Transactions
 
@@ -47,7 +47,7 @@ What if I Lose My Hardware Wallet?
 
 ![](https://www.ledgerwallet.com/images/products/lns/ledger-nano-s-plug-large.png)
 
-----
++++
 
 ### Hardware Architecture
 
@@ -55,13 +55,13 @@ ST31 Secure Element and "Router" STM32 MCU
 
 ![](http://ledger.readthedocs.io/en/latest/_images/bolos_architecture.png)
 
-----
++++
 
 ### Blockchain Open Ledger Operating System
 
 > BOLOS allows users to (...) install applications that let them do more with their cryptographic secrets, while protecting the device and other applications from malicious code.
 
-----
++++
 
 ### Software
 
@@ -98,7 +98,7 @@ make load
 
 ## C Implementation of IOTA using 2KB RAM
 
-----
++++
 
 #### IOTA -- Balanced Ternary
 
@@ -109,7 +109,7 @@ $$\sum_{k=0}^n t_k \cdot 3^k,\ t_k\in\{-1,0,1\}$$
 * Base-27 encoding, each tryte $\in \{N,O,\dots,Z,9,A,B,\dots,M\}$
 * Least significant trit first (Little Endian)
 
-----
++++
 
 #### IOTA -- Hashing
 
@@ -119,7 +119,7 @@ $$\sum_{k=0}^n t_k \cdot 3^k,\ t_k\in\{-1,0,1\}$$
 * 48B two's complement in Big Endian
 
 | Type | 3-Size | 2-Size |
-| ---- | ------:| ------ |
+| +++ | +++--:| +++-- |
 | Address | 243t | 81 chars |
 | Private Key | 13,122t | 2,592B |
 | Signature | 13,122t | 4,274 chars |
@@ -128,7 +128,7 @@ $$\sum_{k=0}^n t_k \cdot 3^k,\ t_k\in\{-1,0,1\}$$
 Work on `uint32_t[12]` where possible!
 :::
 
-----
++++
 
 #### IOTA -- Public Address
 
@@ -145,7 +145,7 @@ Work on `uint32_t[12]` where possible!
 
 Unset last trit in binary & hardware Keccak <i class="fa fa-arrow-right"></i> 2s
 
-----
++++
 
 #### IOTA -- Transaction Bundle
 
@@ -165,7 +165,7 @@ Each transaction (96B) is absorbed for hash
 * $|\text{Bundle}| = |\text{Out}| + 2\cdot |\text{In}|$
 :::
 
-----
++++
 
 #### IOTA -- Input Signing
 
@@ -196,7 +196,7 @@ Generate and transmit 9 fragments of 243T <i class="fa fa-arrow-right"></i> 1s
 * Getting accepted by Ledger
 * "baby proofing"
 
-----
++++
 
 ### Shortcomings, Attack Vectors
 
