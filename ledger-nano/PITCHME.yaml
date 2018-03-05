@@ -1,0 +1,7 @@
+mathjax : TeX-MML-AM_HTMLorMML-full
+highlight : rainbow
+slide-number: true
+theme-override : assets/css/PITCHME.css
+theme : black
+background-size : auto
+transition : none

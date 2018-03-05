@@ -1,0 +1,17 @@
+.reveal blockquote {
+    width: 90%;
+    padding: 0px;
+    font-size: 0.90em;
+    font-style: normal;
+}
+
+.reveal .slide blockquote {
+    width: 90%;
+    padding: 0px;
+    font-size: 0.90em;
+    font-style: normal;
+}
+
+.fa-red {
+    color: #FF0000;
+}
