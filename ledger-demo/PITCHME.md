@@ -12,9 +12,7 @@ Wolfgang Welz
 [github.com/Wollac/iota-talks](https://github.com/Wollac/iota-talks)
 * Demo
 
-@snap[south]
 ![](https://i.imgur.com/dPVgEL9.png)
-@snapend
 
 ---
 
